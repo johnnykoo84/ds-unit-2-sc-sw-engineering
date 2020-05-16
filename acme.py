@@ -29,3 +29,23 @@ class Product:
         else:
             message = '...BABOOM!!'
         return message
+
+
+class BoxingGlove(Product):
+
+    def __init__(self, name, weight=10):
+        self.weight = weight
+        super().__init__(name)
+
+    def explode(self):
+        return '...it\'s a glove.'
+
+    def punch(self):
+
+        if self.weight < 5:
+            message = 'That tickles.'
+        elif (self.weight >= 5) & (self.weight < 15):
+            message = 'Hey that hurt!'
+        else:
+            message = 'OUCH!'
+        return message
