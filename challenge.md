@@ -261,9 +261,11 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+    - ANSWER: I think it is important to show the author's intention clearly so that the reader can reproduce the author's intention easily. Specifically variable namings and function namings, and class namings are important. 
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+    - ANSWER: Containers help provide the identical running environments so that programmers or whoever deploy the program don't have to worry about the environment different and side effects due to environment differences.
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
