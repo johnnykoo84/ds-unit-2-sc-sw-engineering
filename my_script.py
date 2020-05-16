@@ -6,3 +6,5 @@ print(prod.price)  # 10
 print(prod.weight)  # 20
 print(prod.flammability)  # 0.5
 print(prod.identifier)  # ?
+print(prod.stealability())
+print(prod.explode())
